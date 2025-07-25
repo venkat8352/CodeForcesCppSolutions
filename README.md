@@ -1,2 +1,2 @@
 # CodeForcesCppSolutions
-[solutions in c++ for problems on codeforces](https://codeforces.com/)
+C++ solutions for problems in https://codeforces.com/

@@ -1,7 +1,7 @@
 // 320A Magic Numbers
 // https://codeforces.com/problemset/problem/320/A
 // https://earthshakira.github.io/a2oj-clientside/server/Ladder11.html
-// 30/07/2025
+// 31/07/2025
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -58,13 +58,27 @@ int main() {
         //  3  1 2 3 4 4
         //  4  1 2 3 4 5
         // (x)
+        // 
+        // for better correlation, can take the scale as (x+1) and (y+1)
+        //     1 2 3 4 5 (y+1)
+        //  1  1 1 1 1 1 
+        //  2  1 2 2 2 2
+        //  3  1 2 3 3 3
+        //  4  1 2 3 4 4
+        //  5  1 2 3 4 5
+        // (x+1)
 
-        // point 1 for (0,0) to (0,4)   and   (0,0) to (4,0)
-        // point 2 for (1,1) to (1,4)   and   (1,1) to (4,1)
-        // point 3 for (2,2) to (2,4)   and   (2,2) to (4,2)
-        // .. notice how min(x,y)+1 is the point ? 
-        //   min(x,y) pulls the point fastest outward of the center of square
-        p += min(x,y)+1;
+        // say we want to detect point 4 : 
+        //   (4, 4)  (4, 5)  
+        //   (5, 4)
+
+        // say we want to detect point 3 : 
+        //   (3, 3)  (3, 4)  (3, 5)
+        //   (4, 3)
+        //   (5, 3)
+        // min(x+1, y+1) should do the trick
+
+        p += min(x+1, y+1);
       }
 
     }

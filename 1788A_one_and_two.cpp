@@ -1,6 +1,6 @@
 // 1788A One and Two
 // https://codeforces.com/problemset/problem/1788/A
-// https://www.tle-eliminators.com/cp-sheet  rating 800, problem 
+// https://www.tle-eliminators.com/cp-sheet  rating 800, problem 27
 // 02/08/2025
 
 #include <bits/stdc++.h>

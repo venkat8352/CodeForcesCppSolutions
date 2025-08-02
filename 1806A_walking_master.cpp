@@ -1,6 +1,6 @@
 // 1806A Walking Master
 // https://codeforces.com/problemset/problem/1806/A
-// https://www.tle-eliminators.com/cp-sheet  rating 800, problem 
+// https://www.tle-eliminators.com/cp-sheet  rating 800, problem 23
 // 02/08/2025
 
 #include <bits/stdc++.h>

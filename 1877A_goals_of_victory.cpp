@@ -1,6 +1,6 @@
 // 1877A Goals of Victory
 // https://codeforces.com/problemset/problem/1877/A
-// https://www.tle-eliminators.com/cp-sheet  rating 800, problem 11
+// https://www.tle-eliminators.com/cp-sheet  rating 800, problem 9
 // 02/08/2025
 
 #include <bits/stdc++.h>

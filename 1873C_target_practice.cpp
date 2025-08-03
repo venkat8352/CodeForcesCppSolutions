@@ -28,7 +28,7 @@ int main() {
         //  
         //    if a point lies in quadrant 2 .. map it to quadrant 1 
         //        (x<=4) && (y>=5)
-        //        eg: y==9 -> y==0, y==8 -> y==1, y==7 -> y == 1  (i.e., new_y = 9 - old_y)
+        //        eg: y==9 -> y==0, y==8 -> y==1, y==7 -> y == 2  (i.e., new_y = 9 - old_y)
         //    if a point lies in quadrant 3 .. map it to quadrant 1 
         //        (x>=5) && (y<=4)
         //        eg: x==9 -> x==0, .., x==5 -> x==4 (i.e., new_x = 9 - old_x)

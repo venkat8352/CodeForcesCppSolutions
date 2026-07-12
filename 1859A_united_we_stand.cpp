@@ -34,8 +34,7 @@ int main() {
       cout << "-1" << endl;
     }
     else {
-      cout << b.size() << endl;
-      cout << c.size() << endl;
+      cout << b.size() << " " << c.size() << endl;
       for(auto &x: b) {
         cout << x << " ";
       }

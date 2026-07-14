@@ -1,6 +1,6 @@
 // 1845A Forbidden Integer
 // https://codeforces.com/problemset/problem/1845/A
-// 12/07/2026
+// 13/07/2026
 
 #include <bits/stdc++.h>
 using namespace std;
